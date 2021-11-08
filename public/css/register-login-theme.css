@@ -19,6 +19,7 @@
     width: 100%;
     padding: 8px;
     border-radius: 10px;
+    border: none;
 }
 
 .control-formulario-buttom{
@@ -39,6 +40,20 @@
     font-size: 15px;
 
 }
+.buttom:hover{
+    border: none;
+    padding: 16px 37px;
+    background-color: #0022AA;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    margin: 0px 38px;
+    font-size: 15px;
+
+}
+.iconofooter:hover{
+    color:#0022AA
+}
 
 
 
@@ -48,6 +63,7 @@
     align-items: center;
     justify-content: center;
 
+
 }
 .control-login{
     border-radius: 9px;
@@ -55,4 +71,9 @@
     height: 50%;
     text-align: center;
     align-items: center;
+    border: none;
+}
+
+.prueba{
+    text-align: center;
 }

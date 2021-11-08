@@ -7,6 +7,8 @@
   
 }
 
+
+
 header nav {
     display: none;
 }
@@ -16,12 +18,12 @@ nav ul li {
 }
 nav ul li a {
     color: black;
+    text-decoration: none;
 }
 
 footer .fas {
     color: #336bff;
     font-size: 2em;
-    padding-left: 48vw;
     margin-bottom: 10px;
 }
 
@@ -46,9 +48,18 @@ main section article i {
     }
     main {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-@media (min-width: 769px) {
+    }
+
+ }
+
+
+@media (min-width: 632px) {
     
+    div.headertop {
+    display: flex;
+    justify-content: space-between;   
+    }
+
     main h3.Nombre {
         display: none;
     }
@@ -80,12 +91,13 @@ main section article i {
         width: 50%;
         
     }
+
     
 }
 
-@media (min-width: 1200px){ 
+@media (min-width: 1000px){ 
     .container-section article {
         width: 25%; 
     }}
-
+    
     

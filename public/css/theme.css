@@ -31,7 +31,7 @@
 
 .headertop {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     flex-wrap: wrap;
@@ -115,14 +115,9 @@ div.separador:hover .fa-truck{
 
 }
 
-
-
-
-
-
-
 .marginFooter {
     margin-top: 20px;
+
 }
 .search-bar {
     display: flex;
@@ -145,4 +140,19 @@ div.separador:hover .fa-truck{
     border-bottom-right-radius: 5px;
     background-color: white;
     border: none;
+}
+
+.flexfooter{
+    display: flex;
+
+}
+.algo{
+    width: 33%;
+}
+.padding{
+    padding: 15px 0 0 10px;
+}
+
+.copyright{
+    font-weight: unset;
 }
