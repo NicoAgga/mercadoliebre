@@ -121,9 +121,12 @@ div.separador:hover .fa-truck{
 }
 .search-bar {
     display: flex;
-    padding: 10px;
+    margin: 6px 4px;
+    padding: 2px;
+    width: 227px;
+    height: 30px;
     justify-content: center;
-    border: dotted 1px black;
+
 }
 
 .search-bar input {
@@ -142,8 +145,10 @@ div.separador:hover .fa-truck{
     border: none;
 }
 
-.flexfooter{
+.flexfooter {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .algo{

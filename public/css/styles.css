@@ -50,6 +50,8 @@ main section article i {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
+
+
  }
 
 
@@ -57,7 +59,7 @@ main section article i {
     
     div.headertop {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-around;   
     }
 
     main h3.Nombre {
@@ -79,7 +81,7 @@ main section article i {
     }
     .nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     nav ul {
         display: flex;
@@ -92,12 +94,19 @@ main section article i {
         
     }
 
-    
+
 }
+
+    
+
 
 @media (min-width: 1000px){ 
     .container-section article {
         width: 25%; 
-    }}
-    
-    
+    }
+
+    .flexfooter {
+    flex-wrap: nowrap;
+    }
+
+}
